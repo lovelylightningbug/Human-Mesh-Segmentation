@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\zze\Desktop\research\mycode\MeshFeatures\DijkstraForGeodesics.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\zze\Desktop\research\mycode\MeshFeatures\FeatureExporter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\zze\Desktop\research\mycode\MeshFeatures\ICP.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\zze\Desktop\research\mycode\MeshFeatures\JointBoost.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\zze\Desktop\research\mycode\MeshFeatures\JointBoost2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\zze\Desktop\research\mycode\MeshFeatures\KDtree.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\zze\Desktop\research\mycode\MeshFeatures\MeshSegmentationFeatures.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\zze\Desktop\research\mycode\MeshFeatures\TriMesh_bounding.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\zze\Desktop\research\mycode\MeshFeatures\TriMesh_connectivity.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\zze\Desktop\research\mycode\MeshFeatures\TriMesh_curvature.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\zze\Desktop\research\mycode\MeshFeatures\TriMesh_grid.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\zze\Desktop\research\mycode\MeshFeatures\TriMesh_io.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\zze\Desktop\research\mycode\MeshFeatures\TriMesh_normals.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\zze\Desktop\research\mycode\MeshFeatures\TriMesh_pointareas.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\zze\Desktop\research\mycode\MeshFeatures\TriMesh_stats.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\zze\Desktop\research\mycode\MeshFeatures\TriMesh_tstrips.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\zze\Desktop\research\mycode\MeshFeatures\diffuse.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\zze\Desktop\research\mycode\MeshFeatures\edgeflip.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\zze\Desktop\research\mycode\MeshFeatures\faceflip.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\zze\Desktop\research\mycode\MeshFeatures\filter.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\zze\Desktop\research\mycode\MeshFeatures\lmsmooth.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\zze\Desktop\research\mycode\MeshFeatures\remove.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\zze\Desktop\research\mycode\MeshFeatures\reorder_verts.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\zze\Desktop\research\mycode\MeshFeatures\subdiv.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\zze\Desktop\research\mycode\MeshFeatures\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{0FEC4060-B3D3-3777-968A-F91C83E52208}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

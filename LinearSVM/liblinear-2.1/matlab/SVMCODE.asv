@@ -1,0 +1,58 @@
+%load 'human_feature\1data_new.txt'
+%load 'human_feature\1label_new.txt'
+
+% Read 20 meshes and labels
+
+clear , clc
+input_dir = 'human_feature/';
+
+features = [input_dir,num2str(1),'data_new.txt'];
+label = [input_dir,num2str(1),'label_new.txt'];
+load(features);
+load(label);
+
+All_Data = X1data_new;
+All_Label= X1label_new;
+
+mesh_data = ['X',num2str(1),'data_new']
+mesh_label = ['X',num2str(1),'label_new']
+
+disp('now deleting')
+clear (mesh_data)
+clear (mesh_label)
+
+
+
+for i=2:5
+    disp('mesh: ')
+    i
+    
+features = [input_dir,num2str(i),'data_new.txt'];
+label = [input_dir,num2str(i),'label_new.txt'];
+load(features);
+load(label);
+% assemble the data togather 
+mesh_data = ['X',num2str(i),'data_new']
+mesh_label = ['X',num2str(i),'label_new']
+All_Data=[All_Data;eval(mesh_data)];
+All_Label=[All_Label;eval(mesh_label)];
+
+disp('now deleting')
+clear (mesh_data)
+clear (mesh_label)
+
+
+end
+
+% set all data togather for training and testing
+% disp(' Training ......')
+% model = svmtrain(All_Label, All_Data,'-s 0 -t 0 -b 1');
+A=sparse(All_Data);
+% best = train(All_Label, A, '-C -s 0');
+ model = train(All_Label, A , '-c 1 -s 2'); % use the same solver: -s 0 
+
+% 
+% 
+disp(' predicting ......')
+[predicted_label, accuracy, A] = svmpredict(X1label_new, X1data_new, model, '-b 1');
+%   

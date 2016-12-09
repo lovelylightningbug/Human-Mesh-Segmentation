@@ -1,0 +1,14 @@
+net: "./model.prototxt"
+test_iter: 500
+test_interval: 1000
+base_lr: 0.1
+lr_policy: "fixed"
+
+display: 50
+max_iter: 10000
+momentum: 0.9
+weight_decay: 0.004
+
+
+solver_mode: CPU
+type: "SGD"
