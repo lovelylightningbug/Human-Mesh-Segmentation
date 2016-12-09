@@ -1,4 +1,4 @@
-LinearSVM folder contains the SVM code and library files, you can find another README in this folder to instruct you to run the matlab code.
+LinearSVM folder contains the SVM code and library files, you can find another README in this folder to instruct you how to run the matlab code.
 
 FeatureExtraction folder conrtains to C++ code and many related libraries to extract the geometric features from triangle meshes. You need to compile Clapack library in the computer first, and then open the Project1 solution in Microsoft Visual studio 2015, and run MeshSegmentation.cpp with your mesh file, then you can get the geometric feature vector. 
 
